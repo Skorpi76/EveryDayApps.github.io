@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="JavaScript/AnimationForm.js"></script>
 </head>
 
 <body>
@@ -19,60 +20,89 @@
                 <div class="ct" id="t4">
                     <div class="ct" id="t5">
                         <div class="ct" id="t6">
-                            <ul id="menu">
-                                <a href="#t1">
-                                    <li class="icon fa fa-home" id="one"></li>
-                                </a>
-                                <a href="#t2">
-                                    <li class="icon fa fa-keyboard-o" id="two"></li>
-                                </a>
-                                <a href="#t3">
-                                    <li class="icon fa fa-rocket" id="three"></li>
-                                </a>
-                                <a href="#t4">
-                                    <li class="icon fa fa-dribbble" id="four"></li>
-                                </a>
-                                <a href="#t5">
-                                    <li class="icon fa fa-plus-circle" id="five"></li>
-                                </a>
-                                <a href="#t6">
-                                    <li class="icon fa fa-plus-circle" id="six"></li>
-                                </a>
-                            </ul>
-                            <div class="page" id="p1">
-                                <section class="icon fa fa-home"><span class="title">Bolt</span><span class="hint">Like this pen to see the magic!...<br> Just kidding, it won't happen anything but I'll be really happy If you do so.</span></section>
-                            </div>
-                            <div class="page" id="p2">
-                                <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section>
-                            </div>
-                            <div class="page" id="p3">
-                                <section class="icon fa fa-rocket"><span class="title">Rocket</span></section>
-                            </div>
-                            <div class="page" id="p4">
-                                <section class="icon fa fa-dribbble">
-                                    <span class="title">Dribbble</span>
-                                    <p class="hint">
-                                        <a href="https://dribbble.com/albertohartzet" target="_blank">Im ready to play, <span class="hint line-trough">invite me </span> find me</a>
-                                    </p>
-                                    <p class="hint">Already invited by <a href="http://www.dribbble.com/mrpeters" target="_blank">Stan Peters</a></p>
-                                </section>
-                            </div>
-                            <div class="page" id="p5">
-                                <section class="icon fa fa-plus-circle">
-                                    <span class="title">More</span>
-                                    <p class="hint">
-                                        <span>You love one page & CSS only stuff? </span><br/>
-                                        <a href="http://codepen.io/hrtzt/details/pgXMYb/" target="_blank">check this pen "Pure CSS One page vertical navigation"</a>
-                                    </p>
-                                </section>
-                            </div>
-                            <div class="page" id="p6">
-                                <section class="icon fa fa-plus-circle">
-                                    <span class="title">More</span>
-                                    <p class="hint">
-                                        <span>You love one page & CSS only stuff? </span><br/>
-                                    </p>
-                                </section>
+                            <div class="ct" id="t7">
+                                <ul id="menu">
+                                    <a href="#t1">
+                                        <li class="icon fa fa-home" id="one"></li>
+                                    </a>
+                                    <a href="#t2">
+                                        <li class="icon fa fa-check-square-o" id="two"></li>
+                                    </a>
+                                    <a href="#t3">
+                                        <li class="icon fa fa-bookmark" id="three"></li>
+                                    </a>
+                                    <a href="#t4">
+                                        <li class="icon fa fa-calculator" id="four"></li>
+                                    </a>
+                                    <a href="#t5">
+                                        <li class="icon fa fa-gamepad" id="five"></li>
+                                    </a>
+                                    <a href="#t6">
+                                        <li class="icon fa fa-user" id="six"></li>
+                                    </a>
+                                    <a href="#t7">
+                                        <li class="icon fa fa-phone-square" id="seven"></li>
+                                    </a>
+                                </ul>
+                                <div class="page" id="p1">
+                                    <section class="icon fa fa-home"><span class="title">Bolt</span><span class="hint">Like this pen to see the magic!...<br> Just kidding, it won't happen anything but I'll be really happy If you do so.</span></section>
+                                </div>
+                                <div class="page" id="p2">
+                                    <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section>
+                                </div>
+                                <div class="page" id="p3">
+                                    <section class="icon fa fa-rocket"><span class="title">Rocket</span></section>
+                                </div>
+                                <div class="page" id="p4">
+                                    <section class="icon fa">
+                                        <span class="title">Dribbble</span>
+                                        <p class="hint">
+                                            <a href="https://dribbble.com/albertohartzet" target="_blank">Im ready to play, <span class="hint line-trough">invite me </span> find me</a>
+                                        </p>
+                                        <p class="hint">Already invited by <a href="http://www.dribbble.com/mrpeters" target="_blank">Stan Peters</a></p>
+                                    </section>
+                                </div>
+                                <div class="page" id="p5">
+                                    <div class="index-buttons">
+                                        <div class="col-md-4 col-sm-4 col-xs-6">
+                                            <a href="#" class="btn btn-lg animated-button tic-tac-toe-btn">Tic Tac Toe</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page" id="p6">
+                                    <section class="icon fa fa-plus-circle">
+                                        <span class="title">More</span>
+                                        <p class="hint">
+                                            <span>You love one page & CSS only stuff? </span><br/>
+                                        </p>
+                                    </section>
+                                </div>
+                                <div class="page" id="p7">
+
+                                    <div class="index-contacts icon fa">
+                                        <h2 class="index-h2-text">Contact us</h2>
+                                        <form class="form-group-md" action="">
+                                            <div class="form-group">
+                                                <label class="label-form" for="usr">Name:</label>
+                                                <input type="text" name="name" class="Myform" id="usr" placeholder="Your name" onfocus="ActiveName(0)" onfocusout="NonActiveName(0)" autocomplete="off" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="label-form" for="email">Email:</label>
+                                                <input type="email" name="email" class="Myform" id="email" placeholder="Your email" onfocus="ActiveName(1)" onfocusout="NonActiveName(1)" autocomplete="off" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="label-form" for="pwd">Subject:</label>
+                                                <input type="text" name="subject" class="Myform" id="sbj" placeholder="Subject" onfocus="ActiveName(2)" autocomplete="off" onfocusout="NonActiveName(2)">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="label-form" for="comment">Message:</label>
+                                                <textarea class="Myform" name="message" rows="5" id="comment" placeholder="Message..." onfocus="ActiveName(3)" autocomplete="off" onfocusout="NonActiveName(3)"></textarea>
+                                            </div>
+                                            <button id="send-button" class="btn btn-default btn-lg btn-block" type="submit" class="btn btn-default">SEND MESSAGE</button>
+                                        </form>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -80,10 +110,6 @@
             </div>
         </div>
     </div>
-
-
-
-
 </body>
 
 </html>
