@@ -180,83 +180,57 @@ a
   -o-transform: translateX(0) !important
   transition-delay: 1s
 
+
+
 //GAME PAGE
-a.animated-button
-  &:link, &:visited
-    position: relative
-    display: block
-    margin: 30px auto 0
-    padding: 14px 15px
-    color: #fff
-    font-size: 16px
-    text-align: center
-    text-decoration: none
-    text-transform: uppercase
-    overflow: hidden
-    letter-spacing: .08em
-    border-radius: 0
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2)
-    -webkit-transition: all 1s ease
-    -moz-transition: all 1s ease
-    -o-transition: all 1s ease
-    transition: all 1s ease
-  &:link:after, &:visited:after
-    content: ""
-    position: absolute
-    height: 0%
-    left: 50%
-    top: 50%
-    width: 150%
-    z-index: -1
-    -webkit-transition: all 0.75s ease 0s
-    -moz-transition: all 0.75s ease 0s
-    -o-transition: all 0.75s ease 0s
-    transition: all 0.75s ease 0s
-  &:link:hover, &:visited:hover
-    color: #FFF
-    text-shadow: none
-  &:link:hover:after, &:visited:hover:after
-    height: 450%
-  &:link, &:visited
-    position: relative
-    display: block
-    margin: 30px auto 0
-    padding: 14px 15px
-    color: #fff
-    font-size: 14px
-    border-radius: 0
-    text-align: center
-    text-decoration: none
-    text-transform: uppercase
-    overflow: hidden
-    letter-spacing: .08em
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2)
-    -webkit-transition: all 1s ease
-    -moz-transition: all 1s ease
-    -o-transition: all 1s ease
-    transition: all 1s ease
-  &.tic-tac-toe-btn
-    border: 2px solid #65b37a
-    color: #FFF
-    &:after
-      opacity: 0
-      background-image: -webkit-linear-gradient(transparent 50%, rgba(101, 179, 122, 0.2) 50%)
-      background-image: -moz-linear-gradient(transparent 50%, rgba(101, 179, 122, 0.2) 50%)
-      background-size: 10px 10px
-      -moz-transform: translateX(-50%) translateY(-50%) rotate(90deg)
-      -ms-transform: translateX(-50%) translateY(-50%) rotate(90deg)
-      -webkit-transform: translateX(-50%) translateY(-50%) rotate(90deg)
-      transform: translateX(-50%) translateY(-50%) rotate(90deg)
-    &:hover:after
-      height: 600% !important
-      opacity: 1
-      color: #FFF
 
 .index-buttons
   margin-top: 100px
   margin-left: 30%
+  margin-right: 30%
   font-family: 'lato', 'open sans', sans-serif
   font-weight: 300
+  width: 40%
+
+.index-buttons a
+  text-decoration: none
+  &:hover
+    text-decoration: none
+  
+.button-games
+  flex: 1 1 auto
+  margin: 10px
+  margin-top: 30px
+  padding: 20px
+  border: 2px solid #f7f7f7
+  text-align: center
+  text-transform: uppercase
+  position: relative
+  overflow: hidden
+  text-decoration: none
+  transition: .3s
+  color: white
+  &:after
+    position: absolute
+    transition: .3s
+    content: ''
+    width: 0
+    left: 50%
+    bottom: 0
+    height: 3px
+    background: #f7f7f7
+    height: 120%
+    left: -10%
+    transform: skewX(15deg)
+    z-index: -1
+  &:hover
+    cursor: pointer
+    color: #5bcaff
+    &:after
+      width: 100%
+      left: 0
+      left: -10%
+      width: 120%
 
 //CONTACT US 
 #p7 .index-contacts
@@ -334,3 +308,120 @@ textarea:focus, input:focus
 
 
   
+//Shooter Game
+body
+  background-color: #D1DF2C
+
+#hero
+  background: #ff0000
+  width: 20px
+  height: 20px
+  position: absolute
+
+#background
+  background: #000000
+  width: 80vh
+  height: 80vh
+  position: absolute
+  left: 0px
+  top: 0px
+  border-radius: 10px
+  border: 2px solid #D1DF2C
+
+#laser
+  background: #00ff00
+  width: 2px
+  height: 20px
+  position: absolute
+
+.enemy
+  background: #0000ff
+  width: 35px
+  height: 35px
+  position: absolute
+
+#score
+  color: #ffffff
+  font-size: 18pt
+  position: absolute
+  left: 20px
+  top: 20px
+
+#gameover
+  color: #ff0000
+  font-size: 20px
+  position: absolute
+  left: 160px
+  top: 200px
+  visibility: hidden
+
+#GameScreen
+  height: 80vh 
+  width: 80vh
+  margin-left: auto
+  margin-right: auto
+  position: relative
+
+#GameScreen .button-games
+  position: fixed
+  top: 10px
+  left: 10px
+  width: 20vh
+
+#shooting-game-menu
+  padding-top: 5px
+  margin-left: auto
+  margin-right: auto
+  .button-games
+    width: 80vh
+    margin-left: auto
+    margin-right: auto
+
+.game-menu
+  position: fixed
+  height: 100%
+  width: 10%
+  background-color: #000
+  .back-btn
+    position: fixed
+    top: 20px
+    width: 10%
+    color: #fff
+    cursor: pointer
+    display: block
+    font-size: 16px
+    font-weight: 400
+    line-height: 45px
+    max-width: 160px
+    text-align: center
+    text-decoration: none
+    text-transform: uppercase
+    vertical-align: middle
+    letter-spacing: 0
+    &:hover, &:active
+      letter-spacing: 5px
+      text-decoration: none
+    &:after, &:before
+      backface-visibility: hidden
+      border: 1px solid rgba(255, 255, 255, 0)
+      bottom: 0px
+      content: " "
+      display: block
+      margin: 0 auto
+      position: relative
+      transition: all 280ms ease-in-out
+      width: 0
+    &:hover
+      &:after
+        backface-visibility: hidden
+        border-color: #fff
+        transition: width 350ms ease-in-out
+        width: 70%
+      &:before
+        backface-visibility: hidden
+        border-color: #fff
+        transition: width 350ms ease-in-out
+        width: 70%
+        bottom: auto
+        top: 0
+        width: 70%
