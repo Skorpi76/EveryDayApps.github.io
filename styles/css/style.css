@@ -476,13 +476,13 @@ body {
 }
 
 /* line 371, ../compass/sass/style.sass */
-#shooting-game-menu {
+.control-game-menu {
   padding-top: 5px;
   margin-left: auto;
   margin-right: auto;
 }
 /* line 375, ../compass/sass/style.sass */
-#shooting-game-menu .button-games {
+.control-game-menu .button-games {
   width: 80vh;
   margin-left: auto;
   margin-right: auto;
@@ -546,4 +546,108 @@ body {
   bottom: auto;
   top: 0;
   width: 70%;
+}
+
+/* line 430, ../compass/sass/style.sass */
+.ttt-gamescreen {
+  height: 95vh;
+  width: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+/* line 437, ../compass/sass/style.sass */
+.ttt-control-buttons {
+  height: 20vh;
+  width: 100%;
+}
+
+/* line 441, ../compass/sass/style.sass */
+.ttt-game-field {
+  width: 66vh;
+  height: 65vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  vertical-align: top;
+}
+
+/* line 450, ../compass/sass/style.sass */
+.ttt-button {
+  display: inline-block;
+  margin: 4px;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  vertical-align: top;
+  float: left;
+}
+/* line 459, ../compass/sass/style.sass */
+.ttt-button:hover {
+  border-color: #8966E3;
+}
+
+/* line 462, ../compass/sass/style.sass */
+.ttt-button-text {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 500%;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Lato", "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+/* line 472, ../compass/sass/style.sass */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 478, ../compass/sass/style.sass */
+.radio-inline__input {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+}
+
+/* line 482, ../compass/sass/style.sass */
+.radio-inline__label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  width: 65px;
+  margin-right: 18px;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+/* line 491, ../compass/sass/style.sass */
+.radio-inline__input:checked + .radio-inline__label {
+  background: #8966E3;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+}
+/* line 495, ../compass/sass/style.sass */
+.radio-inline__input:focus + .radio-inline__label {
+  outline-color: #4D90FE;
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+/* line 501, ../compass/sass/style.sass */
+.ttt-palyers {
+  padding-top: 10px;
+}
+
+/* line 505, ../compass/sass/style.sass */
+.ttt-control-buttons .button-games {
+  margin-top: 10px !important;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
