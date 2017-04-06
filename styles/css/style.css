@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700");
-/* line 10, ../compass/sass/style.sass */
+/* line 12, ../compass/sass/style.sass */
 html, body, .page {
   width: 100%;
   height: 100%;
@@ -15,67 +15,67 @@ html, body, .page {
   overflow: hidden;
 }
 
-/* line 22, ../compass/sass/style.sass */
+/* line 24, ../compass/sass/style.sass */
 * {
   font-family: "lato", "open sans", sans-serif;
 }
 
-/* line 25, ../compass/sass/style.sass */
+/* line 27, ../compass/sass/style.sass */
 .page {
   position: absolute;
 }
 
-/* line 28, ../compass/sass/style.sass */
+/* line 30, ../compass/sass/style.sass */
 #p1 {
   left: 0;
 }
 
-/* line 31, ../compass/sass/style.sass */
+/* line 33, ../compass/sass/style.sass */
 #p2, #p3, #p4, #p5, #p6, #p7 {
   left: 200%;
 }
 
-/* line 34, ../compass/sass/style.sass */
+/* line 36, ../compass/sass/style.sass */
 #p1 {
   background: #9627D1;
 }
 
-/* line 37, ../compass/sass/style.sass */
+/* line 39, ../compass/sass/style.sass */
 #p2 {
   background: #5B38D1;
 }
 
-/* line 40, ../compass/sass/style.sass */
+/* line 42, ../compass/sass/style.sass */
 #p3 {
   background: #30ADBB;
 }
 
-/* line 43, ../compass/sass/style.sass */
+/* line 45, ../compass/sass/style.sass */
 #p4 {
   background: #30BB48;
 }
 
-/* line 46, ../compass/sass/style.sass */
+/* line 48, ../compass/sass/style.sass */
 #p5 {
   background: #D1DF2C;
 }
 
-/* line 49, ../compass/sass/style.sass */
+/* line 51, ../compass/sass/style.sass */
 #p6 {
   background: #CC8934;
 }
 
-/* line 52, ../compass/sass/style.sass */
+/* line 54, ../compass/sass/style.sass */
 #p7 {
   background: #CC3434;
 }
 
-/* line 55, ../compass/sass/style.sass */
+/* line 57, ../compass/sass/style.sass */
 a {
   display: block;
 }
 
-/* line 58, ../compass/sass/style.sass */
+/* line 60, ../compass/sass/style.sass */
 #t2:target #p2, #t3:target #p3, #t4:target #p4, #t5:target #p5, #t6:target #p6, #t7:target #p7 {
   transform: translateX(-190%);
   -webkit-transform: translateX(-190%);
@@ -84,17 +84,17 @@ a {
   transition-delay: 0.4s !important;
 }
 
-/* line 65, ../compass/sass/style.sass */
+/* line 67, ../compass/sass/style.sass */
 #t2:target #p1, #t3:target #p1, #t4:target #p1, #t5:target #p1, #t6:target #p1, #t7:target #p1 {
   background: black;
 }
 
-/* line 68, ../compass/sass/style.sass */
+/* line 70, ../compass/sass/style.sass */
 #t2:target #p1 .icon, #t3:target #p1 .icon, #t4:target #p1 .icon, #t5:target #p1 .icon, #t6:target #p1 .icon, #t7:target #p1 .icon {
   -webkit-filter: blur(3px);
 }
 
-/* line 71, ../compass/sass/style.sass */
+/* line 73, ../compass/sass/style.sass */
 .icon {
   color: #fff;
   font-size: 52px;
@@ -102,24 +102,24 @@ a {
   width: 100%;
   height: 8.28vh;
 }
-/* line 77, ../compass/sass/style.sass */
+/* line 79, ../compass/sass/style.sass */
 .icon::before {
   font-size: 30px;
   height: 30px !important;
   width: 30px !important;
 }
 
-/* line 83, ../compass/sass/style.sass */
+/* line 85, ../compass/sass/style.sass */
 ul .icon:hover {
   opacity: 0.5;
 }
 
-/* line 86, ../compass/sass/style.sass */
+/* line 88, ../compass/sass/style.sass */
 .page .icon .title {
   line-height: 2;
 }
 
-/* line 89, ../compass/sass/style.sass */
+/* line 91, ../compass/sass/style.sass */
 #t2:target ul .icon, #t3:target ul .icon, #t4:target ul .icon, #t5:target ul .icon, #t6:target ul .icon, #t7:target ul .icon {
   transform: scale(0.6);
   -webkit-transform: scale(0.6);
@@ -128,7 +128,7 @@ ul .icon:hover {
   transition-delay: 0.25s;
 }
 
-/* line 96, ../compass/sass/style.sass */
+/* line 98, ../compass/sass/style.sass */
 #t2:target #two, #t3:target #three, #t4:target #four, #t5:target #five, #t6:target #six, #t7:target #seven {
   transform: scale(1.2) !important;
   -webkit-transform: scale(1.2) !important;
@@ -136,7 +136,7 @@ ul .icon:hover {
   -o-transform: scale(1.2) !important;
 }
 
-/* line 104, ../compass/sass/style.sass */
+/* line 106, ../compass/sass/style.sass */
 ul {
   position: fixed;
   z-index: 1;
@@ -151,7 +151,7 @@ ul {
   text-align: center;
 }
 
-/* line 117, ../compass/sass/style.sass */
+/* line 119, ../compass/sass/style.sass */
 #menu .icon {
   margin: 3vh 0;
   transition: all 0.5s ease-out !important;
@@ -160,32 +160,32 @@ ul {
   -o-transition: all 0.5s ease-out;
 }
 
-/* line 124, ../compass/sass/style.sass */
+/* line 126, ../compass/sass/style.sass */
 a {
   text-decoration: none;
 }
 
-/* line 127, ../compass/sass/style.sass */
+/* line 129, ../compass/sass/style.sass */
 .title, .hint {
   display: block;
 }
 
-/* line 130, ../compass/sass/style.sass */
+/* line 132, ../compass/sass/style.sass */
 .title {
   font-size: 38px;
 }
 
-/* line 133, ../compass/sass/style.sass */
+/* line 135, ../compass/sass/style.sass */
 .hint {
   font-size: 13px;
 }
 
-/* line 136, ../compass/sass/style.sass */
+/* line 138, ../compass/sass/style.sass */
 #p4 .hint {
   display: inherit !important;
 }
 
-/* line 139, ../compass/sass/style.sass */
+/* line 141, ../compass/sass/style.sass */
 .hint a {
   color: yellow;
   transition: all 250ms ease-out;
@@ -193,17 +193,17 @@ a {
   -moz-transition: all 250ms ease-out;
   -o-transition: all 250ms ease-out;
 }
-/* line 145, ../compass/sass/style.sass */
+/* line 147, ../compass/sass/style.sass */
 .hint a:hover {
   color: #FFF;
 }
 
-/* line 148, ../compass/sass/style.sass */
+/* line 150, ../compass/sass/style.sass */
 .line-trough {
   text-decoration: line-through;
 }
 
-/* line 152, ../compass/sass/style.sass */
+/* line 154, ../compass/sass/style.sass */
 .page .icon {
   position: absolute;
   top: 0;
@@ -225,13 +225,13 @@ a {
   -moz-transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1.25);
   -o-transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1.25);
 }
-/* line 172, ../compass/sass/style.sass */
+/* line 174, ../compass/sass/style.sass */
 .page#p1 .icon {
   height: 220px;
   transform: translateX(10%) !important;
 }
 
-/* line 176, ../compass/sass/style.sass */
+/* line 178, ../compass/sass/style.sass */
 #t2:target .page#p2 .icon, #t3:target .page#p3 .icon, #t4:target .page#p4 .icon, #t5:target .page#p5 .icon, #t6:target .page#p6 .icon, #t7:target .page#p7 .icon {
   transform: translateX(0) !important;
   -webkit-transform: translateX(0) !important;
@@ -240,7 +240,7 @@ a {
   transition-delay: 1s;
 }
 
-/* line 187, ../compass/sass/style.sass */
+/* line 189, ../compass/sass/style.sass */
 .index-buttons {
   margin-top: 100px;
   margin-left: 30%;
@@ -250,16 +250,16 @@ a {
   width: 40%;
 }
 
-/* line 195, ../compass/sass/style.sass */
+/* line 197, ../compass/sass/style.sass */
 .index-buttons a {
   text-decoration: none;
 }
-/* line 197, ../compass/sass/style.sass */
+/* line 199, ../compass/sass/style.sass */
 .index-buttons a:hover {
   text-decoration: none;
 }
 
-/* line 200, ../compass/sass/style.sass */
+/* line 202, ../compass/sass/style.sass */
 .button-games {
   flex: 1 1 auto;
   margin: 10px;
@@ -274,7 +274,7 @@ a {
   transition: 0.3s;
   color: white;
 }
-/* line 213, ../compass/sass/style.sass */
+/* line 215, ../compass/sass/style.sass */
 .button-games:after {
   position: absolute;
   transition: 0.3s;
@@ -289,12 +289,12 @@ a {
   transform: skewX(15deg);
   z-index: -1;
 }
-/* line 226, ../compass/sass/style.sass */
+/* line 228, ../compass/sass/style.sass */
 .button-games:hover {
   cursor: pointer;
   color: #5bcaff;
 }
-/* line 229, ../compass/sass/style.sass */
+/* line 231, ../compass/sass/style.sass */
 .button-games:hover:after {
   width: 100%;
   left: 0;
@@ -302,7 +302,7 @@ a {
   width: 120%;
 }
 
-/* line 236, ../compass/sass/style.sass */
+/* line 238, ../compass/sass/style.sass */
 #p7 .index-contacts {
   margin-top: 60px !important;
   width: 50vw !important;
@@ -315,14 +315,14 @@ a {
   text-align: left;
 }
 
-/* line 247, ../compass/sass/style.sass */
+/* line 249, ../compass/sass/style.sass */
 .index-h2-text {
   text-align: center !important;
   font-family: "lato", "open sans", sans-serif;
   font-weight: 300;
 }
 
-/* line 252, ../compass/sass/style.sass */
+/* line 254, ../compass/sass/style.sass */
 .Myform {
   width: 100%;
   border: none !important;
@@ -333,7 +333,7 @@ a {
   margin-top: 5px;
 }
 
-/* line 261, ../compass/sass/style.sass */
+/* line 263, ../compass/sass/style.sass */
 .label-form {
   text-align: left !important;
   font-family: "Open Sans", "Lato", sans-serif;
@@ -341,26 +341,26 @@ a {
   color: #CC3434;
 }
 
-/* line 267, ../compass/sass/style.sass */
+/* line 269, ../compass/sass/style.sass */
 input, textarea {
   color: #eee !important;
   background-color: #CC3434;
 }
 
-/* line 271, ../compass/sass/style.sass */
+/* line 273, ../compass/sass/style.sass */
 textarea:focus, input:focus {
   outline: none;
   color: #eee !important;
 }
 
-/* line 275, ../compass/sass/style.sass */
+/* line 277, ../compass/sass/style.sass */
 *::-webkit-input-placeholder {
   color: #eee;
   font-family: "Open Sans", "Lato", sans-serif;
   font-weight: 300;
 }
 
-/* line 280, ../compass/sass/style.sass */
+/* line 282, ../compass/sass/style.sass */
 *:-moz-placeholder {
   color: #eee;
   opacity: 1;
@@ -368,7 +368,7 @@ textarea:focus, input:focus {
   font-weight: 300;
 }
 
-/* line 286, ../compass/sass/style.sass */
+/* line 288, ../compass/sass/style.sass */
 *::-moz-placeholder {
   color: #eee;
   opacity: 1;
@@ -376,14 +376,14 @@ textarea:focus, input:focus {
   font-weight: 300;
 }
 
-/* line 292, ../compass/sass/style.sass */
+/* line 294, ../compass/sass/style.sass */
 *:-ms-input-placeholder {
   color: #eee;
   font-family: "Open Sans", "Lato", sans-serif;
   font-weight: 300;
 }
 
-/* line 298, ../compass/sass/style.sass */
+/* line 300, ../compass/sass/style.sass */
 #send-button {
   font-family: "Open Sans", "Lato", sans-serif;
   font-weight: 400;
@@ -391,28 +391,28 @@ textarea:focus, input:focus {
   border: 2px solid #eee !important;
   background-color: #CC3434 !important;
 }
-/* line 304, ../compass/sass/style.sass */
+/* line 306, ../compass/sass/style.sass */
 #send-button:hover {
   color: #CFCD35;
   border: 2px solid #CFCD35 !important;
   background-color: #CC3434 !important;
 }
 
-/* line 312, ../compass/sass/style.sass */
+/* line 314, ../compass/sass/style.sass */
 body {
   background-color: #D1DF2C;
 }
 
-/* line 315, ../compass/sass/style.sass */
-#hero {
+/* line 317, ../compass/sass/style.sass */
+#shooter-hero {
   background: #ff0000;
   width: 20px;
   height: 20px;
   position: absolute;
 }
 
-/* line 321, ../compass/sass/style.sass */
-#background {
+/* line 323, ../compass/sass/style.sass */
+#shooter-background {
   background: #000000;
   width: 500px;
   height: 500px;
@@ -423,24 +423,24 @@ body {
   border: 2px solid #D1DF2C;
 }
 
-/* line 331, ../compass/sass/style.sass */
-#laser {
+/* line 333, ../compass/sass/style.sass */
+#shooter-laser {
   background: #00ff00;
   width: 2px;
   height: 20px;
   position: absolute;
 }
 
-/* line 337, ../compass/sass/style.sass */
-.enemy {
+/* line 339, ../compass/sass/style.sass */
+.shooter-enemy {
   background: #0000ff;
   width: 35px;
   height: 35px;
   position: absolute;
 }
 
-/* line 343, ../compass/sass/style.sass */
-#score {
+/* line 345, ../compass/sass/style.sass */
+#shooter-score {
   color: #ffffff;
   font-size: 18pt;
   position: absolute;
@@ -448,8 +448,8 @@ body {
   top: 20px;
 }
 
-/* line 350, ../compass/sass/style.sass */
-#gameover {
+/* line 352, ../compass/sass/style.sass */
+#shooter-gameover {
   color: #ff0000;
   font-size: 20px;
   position: absolute;
@@ -459,8 +459,8 @@ body {
   visibility: hidden;
 }
 
-/* line 359, ../compass/sass/style.sass */
-#GameScreen {
+/* line 361, ../compass/sass/style.sass */
+#shooter-GameScreen {
   height: 500px;
   width: 500px;
   margin-left: auto;
@@ -468,35 +468,35 @@ body {
   position: relative;
 }
 
-/* line 366, ../compass/sass/style.sass */
-#GameScreen .button-games {
+/* line 368, ../compass/sass/style.sass */
+#shooter-GameScreen .button-games {
   position: fixed;
   top: 10px;
   left: 10px;
   width: 20vh;
 }
 
-/* line 372, ../compass/sass/style.sass */
+/* line 374, ../compass/sass/style.sass */
 .control-game-menu {
   padding-top: 5px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 376, ../compass/sass/style.sass */
+/* line 378, ../compass/sass/style.sass */
 .control-game-menu .button-games {
   width: 80vh;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 381, ../compass/sass/style.sass */
+/* line 383, ../compass/sass/style.sass */
 .game-menu {
   position: fixed;
   height: 100%;
   width: 10%;
   background-color: #000;
 }
-/* line 386, ../compass/sass/style.sass */
+/* line 388, ../compass/sass/style.sass */
 .game-menu .back-btn {
   position: fixed;
   top: 20px;
@@ -514,12 +514,12 @@ body {
   vertical-align: middle;
   letter-spacing: 0;
 }
-/* line 402, ../compass/sass/style.sass */
+/* line 404, ../compass/sass/style.sass */
 .game-menu .back-btn:hover, .game-menu .back-btn:active {
   letter-spacing: 5px;
   text-decoration: none;
 }
-/* line 405, ../compass/sass/style.sass */
+/* line 407, ../compass/sass/style.sass */
 .game-menu .back-btn:after, .game-menu .back-btn:before {
   backface-visibility: hidden;
   border: 1px solid rgba(255, 255, 255, 0);
@@ -531,14 +531,14 @@ body {
   transition: all 280ms ease-in-out;
   width: 0;
 }
-/* line 416, ../compass/sass/style.sass */
+/* line 418, ../compass/sass/style.sass */
 .game-menu .back-btn:hover:after {
   backface-visibility: hidden;
   border-color: #fff;
   transition: width 350ms ease-in-out;
   width: 70%;
 }
-/* line 421, ../compass/sass/style.sass */
+/* line 423, ../compass/sass/style.sass */
 .game-menu .back-btn:hover:before {
   backface-visibility: hidden;
   border-color: #fff;
@@ -549,7 +549,7 @@ body {
   width: 70%;
 }
 
-/* line 431, ../compass/sass/style.sass */
+/* line 433, ../compass/sass/style.sass */
 .ttt-gamescreen {
   height: 95vh;
   width: 80vh;
@@ -558,13 +558,13 @@ body {
   margin-top: 10px;
 }
 
-/* line 438, ../compass/sass/style.sass */
+/* line 440, ../compass/sass/style.sass */
 .ttt-control-buttons {
   height: 20vh;
   width: 100%;
 }
 
-/* line 442, ../compass/sass/style.sass */
+/* line 444, ../compass/sass/style.sass */
 .ttt-game-field {
   width: 66vh;
   height: 65vh;
@@ -574,7 +574,7 @@ body {
   vertical-align: top;
 }
 
-/* line 451, ../compass/sass/style.sass */
+/* line 453, ../compass/sass/style.sass */
 .ttt-button {
   display: inline-block;
   margin: 4px;
@@ -585,12 +585,12 @@ body {
   vertical-align: top;
   float: left;
 }
-/* line 460, ../compass/sass/style.sass */
+/* line 462, ../compass/sass/style.sass */
 .ttt-button:hover {
   border-color: #8966E3;
 }
 
-/* line 463, ../compass/sass/style.sass */
+/* line 465, ../compass/sass/style.sass */
 .ttt-button-text {
   padding-top: 20px;
   text-align: center;
@@ -602,7 +602,7 @@ body {
   font-weight: 300;
 }
 
-/* line 473, ../compass/sass/style.sass */
+/* line 475, ../compass/sass/style.sass */
 fieldset {
   border: none;
   padding: 0;
@@ -610,13 +610,13 @@ fieldset {
   text-align: center;
 }
 
-/* line 479, ../compass/sass/style.sass */
+/* line 481, ../compass/sass/style.sass */
 .radio-inline__input {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
 }
 
-/* line 483, ../compass/sass/style.sass */
+/* line 485, ../compass/sass/style.sass */
 .radio-inline__label {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -626,13 +626,13 @@ fieldset {
   transition: all 0.2s;
 }
 
-/* line 492, ../compass/sass/style.sass */
+/* line 494, ../compass/sass/style.sass */
 .radio-inline__input:checked + .radio-inline__label {
   background: #8966E3;
   color: #fff;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
 }
-/* line 496, ../compass/sass/style.sass */
+/* line 498, ../compass/sass/style.sass */
 .radio-inline__input:focus + .radio-inline__label {
   outline-color: #4D90FE;
   outline-offset: -2px;
@@ -640,12 +640,12 @@ fieldset {
   outline-width: 5px;
 }
 
-/* line 502, ../compass/sass/style.sass */
+/* line 504, ../compass/sass/style.sass */
 .ttt-palyers {
   padding-top: 10px;
 }
 
-/* line 506, ../compass/sass/style.sass */
+/* line 508, ../compass/sass/style.sass */
 .ttt-control-buttons .button-games {
   margin-top: 10px !important;
   width: 400px;

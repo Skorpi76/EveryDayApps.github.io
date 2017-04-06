@@ -1,3 +1,6 @@
+//Eskender Memerov
+
+
 // init key codes 
 var leftKey = 37;
 var upKey = 38;

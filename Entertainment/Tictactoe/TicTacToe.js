@@ -1,3 +1,5 @@
+//Vadym Harkusha
+
 var triggerXO = 0;
 var triggerEnd = 0;
 
