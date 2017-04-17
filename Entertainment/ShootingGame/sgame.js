@@ -1,14 +1,14 @@
-//Eskender Memerov
+//Eskender Memetov
 
 
-// init key codes 
-var leftKey = 37;
-var upKey = 38;
-var rightKey = 39;
-var downKey = 40;
-var spaceKey = 32;
-//players speed 
-var speed = 5;
+// Key Codes 
+var KEY_LEFT = 37,
+    KEY_UP = 38,
+    KEY_RIGH = 39,
+    KEY_DOWN = 40,
+    KEY_SPACE = 32,
+    //players speed 
+    var speed = 5;
 
 var lastLoopRun = 0;
 var score = 0;
@@ -28,19 +28,19 @@ function createSprite(element, x, y, w, h) {
 }
 
 function toggleKey(keyCode, isPressed) {
-    if (keyCode == leftKey) {
+    if (keyCode == KEY_LEFT) {
         controller.left = isPressed;
     }
-    if (keyCode == rightKey) {
+    if (keyCode == KEY_RIGH) {
         controller.right = isPressed;
     }
-    if (keyCode == upKey) {
+    if (keyCode == KEY_UP) {
         controller.up = isPressed;
     }
-    if (keyCode == downKey) {
+    if (keyCode == KEY_DOWN) {
         controller.down = isPressed;
     }
-    if (keyCode == spaceKey) {
+    if (keyCode == KEY_SPACE) {
         controller.space = isPressed;
     }
 }
