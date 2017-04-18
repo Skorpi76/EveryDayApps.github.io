@@ -6,9 +6,9 @@ var KEY_LEFT = 37,
     KEY_UP = 38,
     KEY_RIGH = 39,
     KEY_DOWN = 40,
-    KEY_SPACE = 32,
-    //players speed 
-    var speed = 5;
+    KEY_SPACE = 32;
+//players speed 
+var speed = 5;
 
 var lastLoopRun = 0;
 var score = 0;
@@ -116,7 +116,7 @@ function checkCollisions() {
 function gameOver() {
     var element = document.getElementById(player.element);
     element.style.visibility = 'hidden';
-    element = document.getElementById('gameover');
+    element = document.getElementById('shooter-gameover');
     element.style.visibility = 'visible';
 }
 
@@ -126,7 +126,7 @@ function showSprites() {
     for (var i = 0; i < enemies.length; i++) {
         setPosition(enemies[i]);
     }
-    var scoreElement = document.getElementById('score');
+    var scoreElement = document.getElementById('shooter-score');
     scoreElement.innerHTML = 'SCORE: ' + score;
 }
 
@@ -154,9 +154,9 @@ function addEnemy() {
         var enemy = createSprite(elementName, getRandom(450), -40, 35, 35);
 
         var element = document.createElement('div');
-        var gameScreen = document.getElementById('GameScreen');
+        var gameScreen = document.getElementById('shooter-GameScreen');
         element.id = enemy.element;
-        element.className = 'enemy';
+        element.className = 'shooter-enemy';
         document.children[0].appendChild(element);
 
         enemies[enemies.length] = enemy;
@@ -193,8 +193,8 @@ document.onkeyup = function(evt) {
     toggleKey(evt.keyCode, false);
 };
 
-var player = createSprite('hero', 250, 460, 20, 20);
-var laser = createSprite('laser', 0, -120, 2, 50);
+var player = createSprite('shooter-hero', 250, 460, 20, 20);
+var laser = createSprite('shooter-laser', 0, -120, 2, 50);
 
 loop();
 

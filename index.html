@@ -14,6 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="JavaScript/AnimationForm.js"></script>
+    <script src="JavaScript/Calculator.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -57,12 +58,30 @@
                                     <section class="icon fa fa-rocket"><span class="title">Rocket</span></section>
                                 </div>
                                 <div class="page" id="p4">
-                                    <section class="icon fa">
-                                        <span class="title">Dribbble</span>
-                                        <p class="hint">
-                                            <a href="https://dribbble.com/albertohartzet" target="_blank">Im ready to play, <span class="hint line-trough">invite me </span> find me</a>
-                                        </p>
-                                        <p class="hint">Already invited by <a href="http://www.dribbble.com/mrpeters" target="_blank">Stan Peters</a></p>
+                                    <section class="icon fa calc-main">
+                                        <h2 class="index-h2-text calc-title">Calculator</h2>
+                                        <form name="Calculator">
+                                            <input name="calculationInput" id="calc-input" placeholder="0" type="text">
+                                            <input name="btn7" class="calc-btn" onclick="document.Calculator.calculationInput.value +=7" value="7" type="button" />
+                                            <input name="btn8" class="calc-btn" onclick="document.Calculator.calculationInput.value +=8" value="8" type="button" />
+                                            <input name="btn9" class="calc-btn" onclick="document.Calculator.calculationInput.value +=9" value="9" type="button" />
+                                            <input name="btnminus" class="calc-btn" onclick="btnMinus()" value="-" type="button" />
+                                            <input name="btn4" class="calc-btn" onclick="document.Calculator.calculationInput.value +=4" value="4" type="button" />
+                                            <input name="btn5" class="calc-btn" onclick="document.Calculator.calculationInput.value +=5" value="5" type="button" />
+                                            <input name="btn6" class="calc-btn" onclick="document.Calculator.calculationInput.value +=6" value="6" type="button" />
+                                            <input name="btnmulti" class="calc-btn" onclick="btnMulti()" value="X" type="button" />
+                                            <input name="btn1" class="calc-btn" onclick="document.Calculator.calculationInput.value +=1" value="1" type="button" />
+                                            <input name="btn2" class="calc-btn" onclick="document.Calculator.calculationInput.value +=2" value="2" type="button" />
+                                            <input name="btn3" class="calc-btn" onclick="document.Calculator.calculationInput.value +=3" value="3" type="button" />
+                                            <input name="btnplus" class="calc-btn" onclick="btnPlus()" value="+" type="button" />
+                                            <input name="btnzero" class="calc-btn" onclick="document.Calculator.calculationInput.value +=0" value="0" type="button" />
+                                            <input name="btndeci" class="calc-btn" onclick="btnDecimal()" value="." type="button" />
+                                            <input name="btndivide" class="calc-btn" onclick="btnDivide()" value="÷" type="button" />
+                                            <input name="btnmodulus" class="calc-btn" onclick="btnModulus()" value="%" type="button" />
+                                            <input name="btnC" class="calc-btn" onclick="btnclear()" value="C" type="button" />
+                                            <input name="btnDel" class="calc-btn" type="button" value="DEL" onclick="Calculator.calcInput.value = Calculator.calcInput.value.substring(0, Calculator.calcInput.value.length - 1)" />
+                                            <input name="btnequal" id="calc-btn-equal" class="calc-btn" onclick="document.Calculator.calculationInput.value = eval(document.Calculator.calculationInput.value)" value="=" type="button" />
+                                        </form>
                                     </section>
                                 </div>
                                 <div class="page" id="p5">

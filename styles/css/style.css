@@ -242,7 +242,7 @@ a {
 
 /* line 189, ../compass/sass/style.sass */
 .index-buttons {
-  margin-top: 100px;
+  margin-top: 210px;
   margin-left: 24%;
   margin-right: 36%;
   font-family: "lato", "open sans", sans-serif;
@@ -264,6 +264,7 @@ a {
   flex: 1 1 auto;
   margin: 10px;
   margin-top: 30px;
+  font-size: 18px;
   padding: 20px;
   border: 2px solid #f7f7f7;
   text-align: center;
@@ -274,7 +275,7 @@ a {
   transition: 0.3s;
   color: white;
 }
-/* line 215, ../compass/sass/style.sass */
+/* line 216, ../compass/sass/style.sass */
 .button-games:after {
   position: absolute;
   transition: 0.3s;
@@ -289,12 +290,12 @@ a {
   transform: skewX(15deg);
   z-index: -1;
 }
-/* line 228, ../compass/sass/style.sass */
+/* line 229, ../compass/sass/style.sass */
 .button-games:hover {
   cursor: pointer;
   color: #5bcaff;
 }
-/* line 231, ../compass/sass/style.sass */
+/* line 232, ../compass/sass/style.sass */
 .button-games:hover:after {
   width: 100%;
   left: 0;
@@ -302,7 +303,7 @@ a {
   width: 120%;
 }
 
-/* line 238, ../compass/sass/style.sass */
+/* line 239, ../compass/sass/style.sass */
 #p7 .index-contacts {
   margin-top: 60px !important;
   width: 50vw !important;
@@ -315,14 +316,14 @@ a {
   text-align: left;
 }
 
-/* line 249, ../compass/sass/style.sass */
+/* line 250, ../compass/sass/style.sass */
 .index-h2-text {
   text-align: center !important;
   font-family: "lato", "open sans", sans-serif;
   font-weight: 300;
 }
 
-/* line 254, ../compass/sass/style.sass */
+/* line 255, ../compass/sass/style.sass */
 .Myform {
   width: 100%;
   border: none !important;
@@ -333,7 +334,7 @@ a {
   margin-top: 5px;
 }
 
-/* line 263, ../compass/sass/style.sass */
+/* line 264, ../compass/sass/style.sass */
 .label-form {
   text-align: left !important;
   font-family: "Open Sans", "Lato", sans-serif;
@@ -341,26 +342,26 @@ a {
   color: #CC3434;
 }
 
-/* line 269, ../compass/sass/style.sass */
+/* line 270, ../compass/sass/style.sass */
 input, textarea {
   color: #eee !important;
   background-color: #CC3434;
 }
 
-/* line 273, ../compass/sass/style.sass */
+/* line 274, ../compass/sass/style.sass */
 textarea:focus, input:focus {
   outline: none;
   color: #eee !important;
 }
 
-/* line 277, ../compass/sass/style.sass */
+/* line 278, ../compass/sass/style.sass */
 *::-webkit-input-placeholder {
   color: #eee;
   font-family: "Open Sans", "Lato", sans-serif;
   font-weight: 300;
 }
 
-/* line 282, ../compass/sass/style.sass */
+/* line 283, ../compass/sass/style.sass */
 *:-moz-placeholder {
   color: #eee;
   opacity: 1;
@@ -368,7 +369,7 @@ textarea:focus, input:focus {
   font-weight: 300;
 }
 
-/* line 288, ../compass/sass/style.sass */
+/* line 289, ../compass/sass/style.sass */
 *::-moz-placeholder {
   color: #eee;
   opacity: 1;
@@ -376,14 +377,14 @@ textarea:focus, input:focus {
   font-weight: 300;
 }
 
-/* line 294, ../compass/sass/style.sass */
+/* line 295, ../compass/sass/style.sass */
 *:-ms-input-placeholder {
   color: #eee;
   font-family: "Open Sans", "Lato", sans-serif;
   font-weight: 300;
 }
 
-/* line 300, ../compass/sass/style.sass */
+/* line 301, ../compass/sass/style.sass */
 #send-button {
   font-family: "Open Sans", "Lato", sans-serif;
   font-weight: 400;
@@ -391,19 +392,19 @@ textarea:focus, input:focus {
   border: 2px solid #eee !important;
   background-color: #CC3434 !important;
 }
-/* line 306, ../compass/sass/style.sass */
+/* line 307, ../compass/sass/style.sass */
 #send-button:hover {
   color: #CFCD35;
   border: 2px solid #CFCD35 !important;
   background-color: #CC3434 !important;
 }
 
-/* line 314, ../compass/sass/style.sass */
+/* line 315, ../compass/sass/style.sass */
 body {
   background-color: #D1DF2C;
 }
 
-/* line 317, ../compass/sass/style.sass */
+/* line 318, ../compass/sass/style.sass */
 #shooter-hero {
   background: #ff0000;
   width: 20px;
@@ -411,7 +412,7 @@ body {
   position: absolute;
 }
 
-/* line 323, ../compass/sass/style.sass */
+/* line 324, ../compass/sass/style.sass */
 #shooter-background {
   background: #000000;
   width: 500px;
@@ -423,7 +424,7 @@ body {
   border: 2px solid #D1DF2C;
 }
 
-/* line 333, ../compass/sass/style.sass */
+/* line 334, ../compass/sass/style.sass */
 #shooter-laser {
   background: #00ff00;
   width: 2px;
@@ -431,7 +432,7 @@ body {
   position: absolute;
 }
 
-/* line 339, ../compass/sass/style.sass */
+/* line 340, ../compass/sass/style.sass */
 .shooter-enemy {
   background: #0000ff;
   width: 35px;
@@ -439,7 +440,7 @@ body {
   position: absolute;
 }
 
-/* line 345, ../compass/sass/style.sass */
+/* line 346, ../compass/sass/style.sass */
 #shooter-score {
   color: #ffffff;
   font-size: 18pt;
@@ -448,7 +449,7 @@ body {
   top: 20px;
 }
 
-/* line 352, ../compass/sass/style.sass */
+/* line 353, ../compass/sass/style.sass */
 #shooter-gameover {
   color: #ff0000;
   font-size: 20px;
@@ -459,7 +460,7 @@ body {
   visibility: hidden;
 }
 
-/* line 361, ../compass/sass/style.sass */
+/* line 362, ../compass/sass/style.sass */
 #shooter-GameScreen {
   height: 500px;
   width: 500px;
@@ -468,7 +469,7 @@ body {
   position: relative;
 }
 
-/* line 368, ../compass/sass/style.sass */
+/* line 369, ../compass/sass/style.sass */
 #shooter-GameScreen .button-games {
   position: fixed;
   top: 10px;
@@ -476,27 +477,27 @@ body {
   width: 20vh;
 }
 
-/* line 374, ../compass/sass/style.sass */
+/* line 375, ../compass/sass/style.sass */
 .control-game-menu {
   padding-top: 5px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 378, ../compass/sass/style.sass */
+/* line 379, ../compass/sass/style.sass */
 .control-game-menu .button-games {
   width: 80vh;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 383, ../compass/sass/style.sass */
+/* line 384, ../compass/sass/style.sass */
 .game-menu {
   position: fixed;
   height: 100%;
   width: 10%;
   background-color: #000;
 }
-/* line 388, ../compass/sass/style.sass */
+/* line 389, ../compass/sass/style.sass */
 .game-menu .back-btn {
   position: fixed;
   top: 20px;
@@ -514,12 +515,12 @@ body {
   vertical-align: middle;
   letter-spacing: 0;
 }
-/* line 404, ../compass/sass/style.sass */
+/* line 405, ../compass/sass/style.sass */
 .game-menu .back-btn:hover, .game-menu .back-btn:active {
   letter-spacing: 5px;
   text-decoration: none;
 }
-/* line 407, ../compass/sass/style.sass */
+/* line 408, ../compass/sass/style.sass */
 .game-menu .back-btn:after, .game-menu .back-btn:before {
   backface-visibility: hidden;
   border: 1px solid rgba(255, 255, 255, 0);
@@ -531,14 +532,14 @@ body {
   transition: all 280ms ease-in-out;
   width: 0;
 }
-/* line 418, ../compass/sass/style.sass */
+/* line 419, ../compass/sass/style.sass */
 .game-menu .back-btn:hover:after {
   backface-visibility: hidden;
   border-color: #fff;
   transition: width 350ms ease-in-out;
   width: 70%;
 }
-/* line 423, ../compass/sass/style.sass */
+/* line 424, ../compass/sass/style.sass */
 .game-menu .back-btn:hover:before {
   backface-visibility: hidden;
   border-color: #fff;
@@ -549,7 +550,7 @@ body {
   width: 70%;
 }
 
-/* line 433, ../compass/sass/style.sass */
+/* line 434, ../compass/sass/style.sass */
 .ttt-gamescreen {
   height: 95vh;
   width: 80vh;
@@ -558,13 +559,13 @@ body {
   margin-top: 10px;
 }
 
-/* line 440, ../compass/sass/style.sass */
+/* line 441, ../compass/sass/style.sass */
 .ttt-control-buttons {
   height: 20vh;
   width: 100%;
 }
 
-/* line 444, ../compass/sass/style.sass */
+/* line 445, ../compass/sass/style.sass */
 .ttt-game-field {
   width: 66vh;
   height: 65vh;
@@ -574,7 +575,7 @@ body {
   vertical-align: top;
 }
 
-/* line 453, ../compass/sass/style.sass */
+/* line 454, ../compass/sass/style.sass */
 .ttt-button {
   display: inline-block;
   margin: 4px;
@@ -585,12 +586,12 @@ body {
   vertical-align: top;
   float: left;
 }
-/* line 462, ../compass/sass/style.sass */
+/* line 463, ../compass/sass/style.sass */
 .ttt-button:hover {
   border-color: #8966E3;
 }
 
-/* line 465, ../compass/sass/style.sass */
+/* line 466, ../compass/sass/style.sass */
 .ttt-button-text {
   padding-top: 20px;
   text-align: center;
@@ -602,7 +603,7 @@ body {
   font-weight: 300;
 }
 
-/* line 475, ../compass/sass/style.sass */
+/* line 476, ../compass/sass/style.sass */
 fieldset {
   border: none;
   padding: 0;
@@ -610,13 +611,13 @@ fieldset {
   text-align: center;
 }
 
-/* line 481, ../compass/sass/style.sass */
+/* line 482, ../compass/sass/style.sass */
 .radio-inline__input {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
 }
 
-/* line 485, ../compass/sass/style.sass */
+/* line 486, ../compass/sass/style.sass */
 .radio-inline__label {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -626,13 +627,13 @@ fieldset {
   transition: all 0.2s;
 }
 
-/* line 494, ../compass/sass/style.sass */
+/* line 495, ../compass/sass/style.sass */
 .radio-inline__input:checked + .radio-inline__label {
   background: #8966E3;
   color: #fff;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
 }
-/* line 498, ../compass/sass/style.sass */
+/* line 499, ../compass/sass/style.sass */
 .radio-inline__input:focus + .radio-inline__label {
   outline-color: #4D90FE;
   outline-offset: -2px;
@@ -640,15 +641,64 @@ fieldset {
   outline-width: 5px;
 }
 
-/* line 504, ../compass/sass/style.sass */
+/* line 505, ../compass/sass/style.sass */
 .ttt-palyers {
   padding-top: 10px;
 }
 
-/* line 508, ../compass/sass/style.sass */
+/* line 509, ../compass/sass/style.sass */
 .ttt-control-buttons .button-games {
   margin-top: 10px !important;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* line 516, ../compass/sass/style.sass */
+.calc-main {
+  height: initial !important;
+  width: 330px !important;
+}
+
+/* line 520, ../compass/sass/style.sass */
+.calc-btn {
+  width: 70px;
+  height: 70px;
+  margin: 6px;
+  font-size: 24px;
+  float: left;
+  font-family: "Open Sans", "Lato", sans-serif;
+  font-weight: 400;
+  color: #eee;
+  background-color: #30bb48 !important;
+  border: 2px solid #eee !important;
+  border-radius: 6px;
+}
+/* line 532, ../compass/sass/style.sass */
+.calc-btn:hover {
+  color: #CFCD35 !important;
+  border: 2px solid #CFCD35 !important;
+}
+
+/* line 537, ../compass/sass/style.sass */
+#calc-btn-equal {
+  width: 152px !important;
+}
+
+/* line 540, ../compass/sass/style.sass */
+#calc-input {
+  width: 100% !important;
+  text-align: right !important;
+  height: 40px !important;
+  font-family: "Open Sans", "Lato", sans-serif;
+  font-size: 24px;
+  background-color: #30bb48 !important;
+  border: none !important;
+  border-bottom: 2px solid white !important;
+}
+
+/* line 550, ../compass/sass/style.sass */
+.calc-title {
+  margin-bottom: -20px;
+  margin-top: 60px;
 }
