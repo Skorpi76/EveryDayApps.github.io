@@ -702,3 +702,98 @@ fieldset {
   margin-bottom: -20px;
   margin-top: 60px;
 }
+
+/* line 556, ../compass/sass/style.sass */
+.bm-main {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* line 560, ../compass/sass/style.sass */
+.bm-label {
+  font-family: "Open Sans", "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: left;
+  vertical-align: text-top;
+  float: left;
+}
+
+/* line 568, ../compass/sass/style.sass */
+.bm-input {
+  font-size: initial !important;
+  width: 100%;
+  background-color: #30adbb;
+  border: none !important;
+  border-bottom: 2px solid white !important;
+  float: left;
+  padding-top: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: "Open Sans", "Lato", sans-serif;
+}
+
+/* line 580, ../compass/sass/style.sass */
+.bm-input-line:nth-child(1) {
+  margin-top: 50px;
+}
+
+/* line 583, ../compass/sass/style.sass */
+.bm-input-line {
+  margin-bottom: 15px;
+}
+
+/* line 586, ../compass/sass/style.sass */
+.bm-app-div {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 591, ../compass/sass/style.sass */
+.bm-btn {
+  float: right !important;
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size: 24px;
+  float: left;
+  font-family: "Open Sans", "Lato", sans-serif;
+  font-weight: 400;
+  color: #eee;
+  background-color: #30adbb !important;
+  border: 2px solid #eee !important;
+  border-radius: 6px;
+}
+/* line 606, ../compass/sass/style.sass */
+.bm-btn:hover {
+  color: #CFCD35 !important;
+  border: 2px solid #CFCD35 !important;
+}
+
+/* line 610, ../compass/sass/style.sass */
+#bookmarksResults {
+  float: left;
+  width: 100%;
+}
+
+/* line 614, ../compass/sass/style.sass */
+.well {
+  padding: 10px !important;
+}
+/* line 616, ../compass/sass/style.sass */
+.well h3 {
+  text-align: left;
+  font-family: "Open Sans", "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+/* line 622, ../compass/sass/style.sass */
+.well h3 a {
+  float: right;
+  margin-top: -13px;
+  margin-left: 5px;
+}

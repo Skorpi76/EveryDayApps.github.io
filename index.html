@@ -17,7 +17,7 @@
     <script src="JavaScript/Calculator.js" type="text/javascript"></script>
 </head>
 
-<body>
+<body onload="fetchBookmarks()">
     <div class="ct" id="t1">
         <div class="ct" id="t2">
             <div class="ct" id="t3">
@@ -55,7 +55,30 @@
                                     <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section>
                                 </div>
                                 <div class="page" id="p3">
-                                    <section class="icon fa fa-rocket"><span class="title">Rocket</span></section>
+                                    <section class="icon fa bm-main">
+                                        <h2 class="index-h2-text">Bookmark Manager</h2>
+                                        <div class="bm-app-div">
+                                            <form id="myForm">
+                                                <div class="bm-input-line">
+                                                    <span class="bm-label">Site Name:</span>
+                                                    <input class="bm-input" type="text" id="siteName" placeholder="Website Name">
+                                                </div>
+                                                <div class="bm-input-line">
+                                                    <span class="bm-label">Site URL:</span>
+                                                    <input class="bm-input" type="text" id="siteUrl" placeholder="Website URL">
+                                                    <button class="bm-btn" type="submit">Submit</button>
+                                                </div>
+
+
+
+                                            </form>
+                                            <div>
+                                                <div>
+                                                    <div id="bookmarksResults"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
                                 </div>
                                 <div class="page" id="p4">
                                     <section class="icon fa calc-main">
@@ -126,7 +149,7 @@
                                                 <label class="label-form" for="comment">Message:</label>
                                                 <textarea class="Myform" name="message" rows="5" id="comment" placeholder="Message..." onfocus="ActiveName(3)" autocomplete="off" onfocusout="NonActiveName(3)"></textarea>
                                             </div>
-                                            <button id="send-button" class="btn btn-default btn-lg btn-block" type="submit" class="btn btn-default">SEND MESSAGE</button>
+                                            <button id="send-button" class="btn btn-default btn-lg btn-block" type="submit">SEND MESSAGE</button>
                                         </form>
 
                                     </div>
@@ -138,6 +161,7 @@
             </div>
         </div>
     </div>
+    <script src="JavaScript/Bookmark.js"></script>
 </body>
 
 </html>
