@@ -203,3 +203,24 @@
 
 
         main();
+
+
+
+
+
+
+        // AJAX Does not work without the server 
+        $('#btnadad').on('click', function(e) {
+            alert("ok");
+            $.ajax({
+                type: 'GET',
+                url: "about.txt",
+                dataType: 'txt',
+                success: function(data) {
+                    console.log('success', data);
+
+                },
+                error: function(exception) { alert('Exeption:' + exception); }
+            });
+            e.preventDefault();
+        });
