@@ -1,4 +1,4 @@
-//FORM 
+//Vadym Harkusha
 function ActiveName(i) {
     //var name = document.getElementsByClassName("Myform")[0];
     var labelF = document.getElementsByClassName("label-form")[i];

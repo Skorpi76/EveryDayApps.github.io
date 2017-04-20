@@ -1,3 +1,4 @@
+//Ali Mokheamer
 function btnMulti() {
     document.Calculator.calculationInput.value += "*";
     document.Calculator.calculationInput.style.textAlign = "right";
