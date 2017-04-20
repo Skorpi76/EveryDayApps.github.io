@@ -7,152 +7,193 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Everyday Apps</title>
+    <link rel="shortcut icon" href="styles/images/icon.ico" type="image/x-icon">
     <link href="styles/css/style.css" type="text/css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="JavaScript/AnimationForm.js"></script>
+    <script src="JavaScript/library.js"></script>
+    <script src="JavaScript/IndexPageScript.js"></script>
     <script src="JavaScript/Calculator.js" type="text/javascript"></script>
 </head>
 
 <body onload="fetchBookmarks()">
     <div class="ct" id="t1">
-        <div class="ct" id="t2">
-            <div class="ct" id="t3">
-                <div class="ct" id="t4">
-                    <div class="ct" id="t5">
-                        <div class="ct" id="t6">
-                            <div class="ct" id="t7">
-                                <ul id="menu">
-                                    <a href="#t1">
-                                        <li class="icon fa fa-home" id="one"></li>
-                                    </a>
-                                    <a href="#t2">
-                                        <li class="icon fa fa-check-square-o" id="two"></li>
-                                    </a>
-                                    <a href="#t3">
-                                        <li class="icon fa fa-bookmark" id="three"></li>
-                                    </a>
-                                    <a href="#t4">
-                                        <li class="icon fa fa-calculator" id="four"></li>
-                                    </a>
-                                    <a href="#t5">
-                                        <li class="icon fa fa-gamepad" id="five"></li>
-                                    </a>
-                                    <a href="#t6">
-                                        <li class="icon fa fa-user" id="six"></li>
-                                    </a>
-                                    <a href="#t7">
-                                        <li class="icon fa fa-phone-square" id="seven"></li>
-                                    </a>
-                                </ul>
-                                <div class="page" id="p1">
-                                    <section class="icon fa fa-home"><span class="title">Bolt</span><span class="hint">Like this pen to see the magic!...<br> Just kidding, it won't happen anything but I'll be really happy If you do so.</span></section>
-                                </div>
-                                <div class="page" id="p2">
-                                    <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section>
-                                </div>
-                                <div class="page" id="p3">
-                                    <section class="icon fa bm-main">
-                                        <h2 class="index-h2-text">Bookmark Manager</h2>
-                                        <div class="bm-app-div">
-                                            <form id="myForm">
-                                                <div class="bm-input-line">
-                                                    <span class="bm-label">Site Name:</span>
-                                                    <input class="bm-input" type="text" id="siteName" placeholder="Website Name">
-                                                </div>
-                                                <div class="bm-input-line">
-                                                    <span class="bm-label">Site URL:</span>
-                                                    <input class="bm-input" type="text" id="siteUrl" placeholder="Website URL">
-                                                    <button class="bm-btn" type="submit">Submit</button>
-                                                </div>
+        <div class="ct" id="t3">
+            <div class="ct" id="t4">
+                <div class="ct" id="t5">
+                    <div class="ct" id="t6">
+                        <div class="ct" id="t7">
+                            <ul id="menu">
+                                <a href="#t1">
+                                    <li class="icon fa fa-home" id="one"></li>
+                                </a>
+                                <a href="#t3">
+                                    <li class="icon fa fa-bookmark" id="three"></li>
+                                </a>
+                                <a href="#t4">
+                                    <li class="icon fa fa-calculator" id="four"></li>
+                                </a>
+                                <a href="#t5">
+                                    <li class="icon fa fa-gamepad" id="five"></li>
+                                </a>
+                                <a href="#t6">
+                                    <li class="icon fa fa-user" id="six"></li>
+                                </a>
+                                <a href="#t7">
+                                    <li class="icon fa fa-phone-square" id="seven"></li>
+                                </a>
+                            </ul>
+                            <div class="page" id="p1">
+                                <section class="icon fa home-div">
+                                    <h2 class="index-h2-text home-title">Welcome to Simple Apps Website</h2>
+                                    <svg version="1.1" id="svg-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#9627D1;stroke:#FFFFFF;stroke-width:9;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+</style>
+<circle class="st0" cx="256" cy="256" r="249.6"/>
+<g>
+	<path class="st1" d="M266.1,88.6c-0.7,1.2-1.8,1.8-3.1,1.8c-1.3,0-3.2-1.2-5.5-3.5c-2.4-2.4-5.6-5-9.9-7.9
+		c-4.2-2.9-9.7-5.5-16.3-7.9c-6.6-2.4-14.8-3.5-24.6-3.5c-9.9,0-18.7,1.5-26.3,4.4c-7.7,3-14.1,7-19.3,12
+		c-5.2,5.1-9.1,10.9-11.8,17.5c-2.7,6.6-4,13.5-4,20.7c0,9.3,1.9,17,5.6,23.3c3.7,6.2,8.7,11.4,14.8,15.7
+		c6.2,4.2,13.1,7.8,20.9,10.7c7.8,2.9,15.8,5.7,24,8.4c8.2,2.7,16.2,5.6,24,8.7c7.8,3.1,14.8,7,20.9,11.7s11.1,10.5,14.8,17.5
+		c3.7,6.9,5.6,15.5,5.6,25.8c0,10.5-1.8,20.4-5.3,29.6c-3.6,9.2-8.8,17.3-15.6,24.1c-6.8,6.8-15.1,12.2-25,16.1
+		c-9.8,3.9-21,5.9-33.6,5.9c-8.6,0-16.3-0.8-23.3-2.3c-6.9-1.5-13.3-3.7-19.2-6.5c-5.9-2.8-11.2-6.3-16.1-10.4
+		c-4.9-4.1-9.6-8.7-14-13.9l2.4-3.6c0.6-0.6,1.1-1.1,1.5-1.4c0.4-0.3,1.1-0.5,1.9-0.5c0.8,0,2,0.8,3.5,2.3c1.5,1.5,3.5,3.4,5.9,5.6
+		c2.4,2.2,5.3,4.6,8.7,7.2c3.4,2.6,7.4,5,12,7.2c4.6,2.2,10,4.1,16.1,5.6c6.1,1.5,13,2.3,20.7,2.3c11,0,20.8-1.7,29.5-5.2
+		c8.7-3.4,16-8.1,22-14.1c6-6,10.5-12.9,13.7-20.9c3.1-8,4.7-16.5,4.7-25.5c0-9.7-1.9-17.6-5.6-23.9c-3.7-6.3-8.7-11.5-14.8-15.7
+		c-6.1-4.2-13.1-7.8-20.9-10.6c-7.8-2.8-15.8-5.5-24-8.1c-8.1-2.6-16.1-5.4-24-8.5c-7.8-3.1-14.8-7-20.9-11.8
+		c-6.1-4.8-11-10.7-14.8-17.7c-3.7-7.1-5.6-15.9-5.6-26.5c0-8.3,1.6-16.3,4.7-23.9c3.1-7.6,7.7-14.3,13.7-20.2
+		c6-5.9,13.3-10.5,22.1-14c8.7-3.5,18.8-5.2,30.1-5.2c12.8,0,24.1,2.1,33.9,6.2c9.8,4.1,19,10.5,27.6,19.2L266.1,88.6z"/>
+</g>
+<g>
+	<path class="st1" d="M440.7,308.8c0,19.9-2.9,37.7-8.7,53.5c-5.8,15.7-13.9,29.1-24.4,40c-10.5,10.9-23,19.3-37.6,25.1
+		c-14.6,5.8-30.7,8.7-48.3,8.7h-91.8V181.6h91.8c17.6,0,33.7,2.9,48.3,8.7c14.6,5.8,27.2,14.1,37.6,25.1
+		c10.5,10.9,18.6,24.3,24.4,40C437.8,271.1,440.7,288.9,440.7,308.8z M430.2,308.8c0-18.9-2.6-35.8-7.9-50.6
+		c-5.2-14.8-12.7-27.2-22.3-37.4c-9.6-10.1-21.1-17.9-34.4-23.2c-13.3-5.3-28-8-44.1-8h-81.8v238.2h81.8c16,0,30.7-2.7,44.1-8
+		c13.3-5.3,24.8-13,34.4-23.2c9.6-10.1,17-22.6,22.3-37.4C427.6,344.6,430.2,327.8,430.2,308.8z"/>
+</g>
+</svg>
+                                    <div class="home-text-container">
 
-
-
-                                            </form>
+                                        <h3 id="h3-home-text">Enjoy our everyday applications. We make things simple. We are waiting for your feeback.</h3>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="page" id="p3">
+                                <section class="icon fa bm-main">
+                                    <!--Vadym Harkusha | Eskender Memetov-->
+                                    <h2 class="index-h2-text bm-title">Bookmark Manager</h2>
+                                    <div class="bm-app-div">
+                                        <form id="myForm">
+                                            <div class="bm-input-line">
+                                                <span class="bm-label">Site Name:</span>
+                                                <input class="bm-input" type="text" id="siteName" placeholder="Website Name">
+                                            </div>
+                                            <div class="bm-input-line">
+                                                <span class="bm-label">Site URL:</span>
+                                                <input class="bm-input" type="text" id="siteUrl" placeholder="Website URL">
+                                                <button class="bm-btn" type="submit">Submit</button>
+                                            </div>
+                                        </form>
+                                        <div>
                                             <div>
-                                                <div>
-                                                    <div id="bookmarksResults"></div>
-                                                </div>
+                                                <div id="bookmarksResults"></div>
                                             </div>
                                         </div>
-                                    </section>
-                                </div>
-                                <div class="page" id="p4">
-                                    <section class="icon fa calc-main">
-                                        <h2 class="index-h2-text calc-title">Calculator</h2>
-                                        <form name="Calculator">
-                                            <input name="calculationInput" id="calc-input" placeholder="0" type="text">
-                                            <input name="btn7" class="calc-btn" onclick="document.Calculator.calculationInput.value +=7" value="7" type="button" />
-                                            <input name="btn8" class="calc-btn" onclick="document.Calculator.calculationInput.value +=8" value="8" type="button" />
-                                            <input name="btn9" class="calc-btn" onclick="document.Calculator.calculationInput.value +=9" value="9" type="button" />
-                                            <input name="btnminus" class="calc-btn" onclick="btnMinus()" value="-" type="button" />
-                                            <input name="btn4" class="calc-btn" onclick="document.Calculator.calculationInput.value +=4" value="4" type="button" />
-                                            <input name="btn5" class="calc-btn" onclick="document.Calculator.calculationInput.value +=5" value="5" type="button" />
-                                            <input name="btn6" class="calc-btn" onclick="document.Calculator.calculationInput.value +=6" value="6" type="button" />
-                                            <input name="btnmulti" class="calc-btn" onclick="btnMulti()" value="X" type="button" />
-                                            <input name="btn1" class="calc-btn" onclick="document.Calculator.calculationInput.value +=1" value="1" type="button" />
-                                            <input name="btn2" class="calc-btn" onclick="document.Calculator.calculationInput.value +=2" value="2" type="button" />
-                                            <input name="btn3" class="calc-btn" onclick="document.Calculator.calculationInput.value +=3" value="3" type="button" />
-                                            <input name="btnplus" class="calc-btn" onclick="btnPlus()" value="+" type="button" />
-                                            <input name="btnzero" class="calc-btn" onclick="document.Calculator.calculationInput.value +=0" value="0" type="button" />
-                                            <input name="btndeci" class="calc-btn" onclick="btnDecimal()" value="." type="button" />
-                                            <input name="btndivide" class="calc-btn" onclick="btnDivide()" value="÷" type="button" />
-                                            <input name="btnmodulus" class="calc-btn" onclick="btnModulus()" value="%" type="button" />
-                                            <input name="btnC" class="calc-btn" onclick="btnclear()" value="C" type="button" />
-                                            <input name="btnDel" class="calc-btn" type="button" value="DEL" onclick="Calculator.calcInput.value = Calculator.calcInput.value.substring(0, Calculator.calcInput.value.length - 1)" />
-                                            <input name="btnequal" id="calc-btn-equal" class="calc-btn" onclick="document.Calculator.calculationInput.value = eval(document.Calculator.calculationInput.value)" value="=" type="button" />
-                                        </form>
-                                    </section>
-                                </div>
-                                <div class="page" id="p5">
-                                    <div class="index-buttons">
-                                        <a href="Entertainment\Tictactoe\TicTacToe.html">
-                                            <div class="button-games">Tic-Tac-Toe</div>
-                                        </a>
-                                        <a href="Entertainment\ShootingGame\ShootingGame.html">
-                                            <div class="button-games">Shooter Game</div>
-                                        </a>
-                                        <a href="Entertainment\SnakeGame\Snake.html">
-                                            <div class="button-games">Snake</div>
-                                        </a>
                                     </div>
+                                </section>
+                            </div>
+                            <div class="page" id="p4">
+                                <section class="icon fa calc-main">
+                                    <!--Vadym Harkusha | Ali Mokheamer-->
+                                    <h2 class="index-h2-text calc-title">Calculator</h2>
+                                    <form name="Calculator">
+                                        <input name="calculationInput" id="calc-input" placeholder="0" type="text">
+                                        <input name="btn7" class="calc-btn" onclick="document.Calculator.calculationInput.value +=7" value="7" type="button" />
+                                        <input name="btn8" class="calc-btn" onclick="document.Calculator.calculationInput.value +=8" value="8" type="button" />
+                                        <input name="btn9" class="calc-btn" onclick="document.Calculator.calculationInput.value +=9" value="9" type="button" />
+                                        <input name="btnminus" class="calc-btn" onclick="btnMinus()" value="-" type="button" />
+                                        <input name="btn4" class="calc-btn" onclick="document.Calculator.calculationInput.value +=4" value="4" type="button" />
+                                        <input name="btn5" class="calc-btn" onclick="document.Calculator.calculationInput.value +=5" value="5" type="button" />
+                                        <input name="btn6" class="calc-btn" onclick="document.Calculator.calculationInput.value +=6" value="6" type="button" />
+                                        <input name="btnmulti" class="calc-btn" onclick="btnMulti()" value="X" type="button" />
+                                        <input name="btn1" class="calc-btn" onclick="document.Calculator.calculationInput.value +=1" value="1" type="button" />
+                                        <input name="btn2" class="calc-btn" onclick="document.Calculator.calculationInput.value +=2" value="2" type="button" />
+                                        <input name="btn3" class="calc-btn" onclick="document.Calculator.calculationInput.value +=3" value="3" type="button" />
+                                        <input name="btnplus" class="calc-btn" onclick="btnPlus()" value="+" type="button" />
+                                        <input name="btnzero" class="calc-btn" onclick="document.Calculator.calculationInput.value +=0" value="0" type="button" />
+                                        <input name="btndeci" class="calc-btn" onclick="btnDecimal()" value="." type="button" />
+                                        <input name="btndivide" class="calc-btn" onclick="btnDivide()" value="÷" type="button" />
+                                        <input name="btnmodulus" class="calc-btn" onclick="btnModulus()" value="%" type="button" />
+                                        <input name="btnC" class="calc-btn" onclick="btnclear()" value="C" type="button" />
+                                        <input name="btnDel" class="calc-btn" type="button" value="DEL" onclick="Calculator.calcInput.value = Calculator.calcInput.value.substring(0, Calculator.calcInput.value.length - 1)" />
+                                        <input name="btnequal" id="calc-btn-equal" class="calc-btn" onclick="document.Calculator.calculationInput.value = eval(document.Calculator.calculationInput.value)" value="=" type="button" />
+                                    </form>
+                                </section>
+                            </div>
+                            <div class="page" id="p5">
+                                <div class="index-buttons">
+                                    <a href="Entertainment\Tictactoe\TicTacToe.html">
+                                        <div class="button-games">Tic-Tac-Toe</div>
+                                    </a>
+                                    <a href="Entertainment\ShootingGame\ShootingGame.html">
+                                        <div class="button-games">Shooter Game</div>
+                                    </a>
+                                    <a href="Entertainment\SnakeGame\Snake.html">
+                                        <div class="button-games">Snake</div>
+                                    </a>
                                 </div>
-                                <div class="page" id="p6">
-                                    <section class="icon fa fa-plus-circle">
-                                        <span class="title">More</span>
-                                        <p class="hint">
-                                            <span>You love one page & CSS only stuff? </span><br/>
-                                        </p>
-                                    </section>
-                                </div>
-                                <div class="page" id="p7">
-
-                                    <div class="index-contacts icon fa">
-                                        <h2 class="index-h2-text">Contact us</h2>
-                                        <form class="form-group-md" action="">
-                                            <div class="form-group">
-                                                <label class="label-form" for="usr">Name:</label>
-                                                <input type="text" name="name" class="Myform" id="usr" placeholder="Your name" onfocus="ActiveName(0)" onfocusout="NonActiveName(0)" autocomplete="off" required>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="label-form" for="email">Email:</label>
-                                                <input type="email" name="email" class="Myform" id="email" placeholder="Your email" onfocus="ActiveName(1)" onfocusout="NonActiveName(1)" autocomplete="off" required>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="label-form" for="pwd">Subject:</label>
-                                                <input type="text" name="subject" class="Myform" id="sbj" placeholder="Subject" onfocus="ActiveName(2)" autocomplete="off" onfocusout="NonActiveName(2)">
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="label-form" for="comment">Message:</label>
-                                                <textarea class="Myform" name="message" rows="5" id="comment" placeholder="Message..." onfocus="ActiveName(3)" autocomplete="off" onfocusout="NonActiveName(3)"></textarea>
-                                            </div>
-                                            <button id="send-button" class="btn btn-default btn-lg btn-block" type="submit">SEND MESSAGE</button>
-                                        </form>
-
+                            </div>
+                            <div class="page" id="p6">
+                                <section class="icon fa index-about">
+                                    <!--Vadym Harkusha-->
+                                    <div class="about-main">
+                                        <h2 class="index-h2-text about-title">About us</h2>
+                                        <h3 class="h3-text">Who we are?</h3>
+                                        <h4 class="h4-text">We are organization of smart and creative students. Being in web design business since 2010 guarantees a highest grade professional approach to making your web project a success. Simple Design has been designing,
+                                            developing and maintaining Internet web sites in Toronto and GTA, as well as Ottawa, London, Hamilton and throughout Ontario, Canada and US.</h4>
+                                        <hr class="hr">
+                                        <h3 class="h3-text">Where are we situated?</h3>
+                                        <div id="map"></div>
+                                        <div class="icons">
+                                            <a href="https://github.com/" target="_blank"><i class="fa fa-github social-icon" aria-hidden="true"></i></a>
+                                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus social-icon" aria-hidden="true"></i></a>
+                                            <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin social-icon" aria-hidden="true"></i></a>
+                                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official social-icon" aria-hidden="true"></i></a>
+                                            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram social-icon" aria-hidden="true"></i></a>
+                                        </div>
                                     </div>
+                                </section>
+                            </div>
+                            <div class="page" id="p7">
+
+                                <div class="index-contacts icon fa">
+                                    <!--Vadym Harkusha-->
+                                    <h2 class="index-h2-text">Contact us</h2>
+                                    <form class="form-group-md" action="">
+                                        <div class="form-group">
+                                            <label class="label-form" for="usr">Name:</label>
+                                            <input type="text" name="name" class="Myform" id="usr" placeholder="Your name" onfocus="ActiveName(0)" onfocusout="NonActiveName(0)" autocomplete="off" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="label-form" for="email">Email:</label>
+                                            <input type="email" name="email" class="Myform" id="email" placeholder="Your email" onfocus="ActiveName(1)" onfocusout="NonActiveName(1)" autocomplete="off" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="label-form" for="pwd">Subject:</label>
+                                            <input type="text" name="subject" class="Myform" id="sbj" placeholder="Subject" onfocus="ActiveName(2)" autocomplete="off" onfocusout="NonActiveName(2)">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="label-form" for="comment">Message:</label>
+                                            <textarea class="Myform" name="message" rows="5" id="comment" placeholder="Message..." onfocus="ActiveName(3)" autocomplete="off" onfocusout="NonActiveName(3)"></textarea>
+                                        </div>
+                                        <button id="send-button" class="btn btn-default btn-lg btn-block" type="submit">SEND MESSAGE</button>
+                                    </form>
+
                                 </div>
                             </div>
                         </div>
@@ -161,6 +202,8 @@
             </div>
         </div>
     </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgaGc0WsUMPIV-5qWTuG0UHAUFBRpJwj4&callback=initMap">
+    </script>
     <script src="JavaScript/Bookmark.js"></script>
 </body>
 
